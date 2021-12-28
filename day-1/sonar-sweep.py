@@ -15,11 +15,6 @@ def increase_counter_3():
     print(result)
 
 
-""" another way to do the same thing as increase_counter_3()... sort of """
-def group_three_sum(i, arr):
-    return int(arr[i] + arr[i+1] + arr[i+2])
-
-
 if __name__ == '__main__':
     increase_counter()
     increase_counter_3()
